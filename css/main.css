@@ -1,0 +1,309 @@
+@font-face{
+	font-family: "fuentedescarga";
+	src: url("../font/fuentedescarga.ttf");
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+	background-image: url("../img/logo.JPEG");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*.menu ul{
+	margin top: 0px;
+	list-style:none;
+
+}*/
+.menu li{
+	float:left;
+	width: 14.7%;
+	text-align: center;
+	background-color:#73ABC1;
+	padding:5px 14.7px;
+	display:block;
+
+}
+.menu li a {
+	text-decoration:none;
+	color:white;
+	font-size:23px;
+}
+.menu li a:hover{
+	display:block;
+	color:black;
+	opacity: 0.5;
+}
+/* Empezamos CSS de Quienes Somos*/
+.uno{
+	background-image: none; /*Quitar la imagen de fondo*/
+	background-color: #C5EFFF;
+}
+
+.fotoarriba{ /*Foto de la derecha de arriba del todo*/
+	float: right;
+	margin-right: 80px;
+	width: 500px;
+	height: 300px;
+}
+.video{
+	margin-left: 70px;
+}
+.titulo{ /*Titulo general de los comienzos de cada apartado el 1º*/
+	color: #73ABC1;
+	font-size: 70px;
+}
+.primero{ /*Los siguientes enunciados de cada descripcion quienes somos,instalaciones*/
+	color: #075979;
+	margin-left: 10px;
+	font-size: 30px;
+}
+.texto{ /*Los parrafos para describir la info de .primero = titulo de cada uno*/
+	color: black;
+	font-size: 17px;
+	margin-left: 20px;
+}
+.foto{ /*La foto de los participantes de la empresa*/
+	width: 170px;
+	height: 170px;
+	align-items: center;
+	margin-left: 70px;
+	margin-right: 10px;
+}
+.tablauno{/*Hacer el fondo cuadradito de la tabla quienes somos:1(fotos y nombres), instalaciones:(oficinas y almacenes)*/
+	background-color: #568CA1;
+	margin: 1rem;
+	padding: 1rem;
+}
+/*Empieza CSS de Instalaciones*/
+.td{
+	text-align: center;/*Es el primer titulo class=titulo pero lo que hemos cambiado ha sido que lo hemos colocado en el centro, instalaciones y servicis*/
+}
+.mapa{
+    background-color: #568CA1;/*La ubicacion maps color de fondo de ese div en el que esta metido*/
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.mapai{/*La propia direccion del mapa (código) ajustar tamaño ,borde e ubicacion.*/
+	margin-left: 90px;
+	width: 600px;
+	height: 200px;
+	border: #73ABC1 10px dashed;
+}
+.se{
+	margin-top: 30px;/*Pertenece a un "titulo" de los de desarrollar pero ajustar el top*/
+}
+.fotoinsta{ /*Como la foto de foto arriba en quienes-somos*/
+	float: right;
+	margin-right: 30px;
+	border: #73ABC1 10px groove;
+	width: 300px;
+	height: 170px;
+}
+.fotoi{/*Ajustar el tamaño de las fotos de el apartado instalaciones 1º tabla instalaciones*/
+	width: 190px;
+	height: 170px;
+	align-items: center;
+	margin-left: 60px;
+	margin-right: 10px;
+}
+.final{
+	width: 190px;
+	height: 170px;
+	align-items: center;
+	margin-left: 80px;
+	margin-right: 10px;
+}
+.fotoid{/*Ajustar el tamaño de las fotos de el apartado instalaciones 2º tabla alamacenes*/
+	width: 300px;
+	height: 200px;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+.almacenv{ /*Modificar la localizacion de la foto del almacen de valencia*/
+	margin-left: 150px;
+}
+.oficinava{ /*Modificar la localizacion de la foto del trabajo del almacen de valencia*/
+	margin-left: 0px;
+	margin-right: 100px;
+}
+/*Empieza CSS de servicios*/
+.servicio{ /*La decoración utilizada para poner los "titulos del principio"(Servicios info y web)*/
+	background-color: #73ABC1;
+	color: white;
+	font-size: 30px;
+	margin: 1rem;
+	padding: 1rem;
+}
+.fotoservicios{/*Editando la foto principal de inicio para quienessomos y servicios e instalaciones*/
+	width: 100%;
+	height: 300px;	
+}
+.fotose{/*Las características de las fotos de los servicios info de la izquierda*/
+	margin-left: 800px;
+	margin-top: 90px;
+	margin-left: 30px;
+}
+.tituloh{/*El edid de los "titulos de los servicios info*/
+	color: #075979;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+
+}
+.preguntass{/*Las preguntas al principio de cada servicio*/
+	color: #075979;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.textos{/*El texto debajo de las preguntas*/
+	color: black;
+	font-size: 20px;
+	margin-left: 23px;
+}
+/*.fotoser{
+	margin-left: 30px;
+	margin-right: 40px;
+	margin-top: 90px;
+}*/
+.tablaunoser{/*Características de la tabla de color beige de los virus*/
+	background-color: #73ABC1;
+	margin: 1rem;
+	padding: 1rem;
+}
+.fotovi{/*Característica de las fotos de la tabla beige de virus*/
+	width: 300px;
+	height: 100px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.textose{/*Todos los th que contienen la info de servicios info*/
+	padding-top: 3rem;
+	padding-left: 7rem;
+	padding-right: 7rem;
+}
+.fotoweb{/*Las fotos de los servicios web*/
+	margin-right: 77px;
+	margin-left: 77px;
+}
+.tiweb{/*Los titulos de la descripción de los servicios web*/
+	color: #075979;
+	font-size: 27px;
+	margin-left: 25px;
+}
+.defweb{/*La descripción de los servicios web*/
+	font-size: 20px;
+	color: black;
+	margin-left: 30px;
+}
+.pepe{/*El fondo donde estan las fotos de los servicios info*/
+	background-color: #73ABC1;
+	padding-right: 50px;
+}
+.fotoservicioabajo{/*La imagen de abjo que esta float */
+	margin-top: 3rem;
+	margin-right: 5rem;
+	width: 400px;
+	height: 250px;
+	border: #73ABC1 10px dashed;
+}
+.ofertag{
+	width: 100%;
+	height: 450px;
+}
+/*Empieza el CSS de productos*/
+.tablauno tr th { /* Alinear los productos del principio tiene el color por la .tablauno*/
+	width:20%;
+	text-align: center;
+	padding:5px 14.7px;
+	margin-right:100px;
+	margin-left:70px;
+}
+.caption{ /*Editar la letra y tamaño del caption de las tablas de los componentes (Productos)*/
+	font-size:40px;
+	text-align:left;
+	margin-left: 200px;
+	color:#568CA1;
+	text-decoration: underline;
+}
+.componentes{ /*Editando el tamaño de los portátiles*/
+	width: 50%;
+	height: 50%;
+}
+.placabase{ /*Editado los productos de la Placa Base*/
+	height: 300px;
+	width: 300px;
+	margin-left:150px;
+}
+.componentesram{ /*Editado los productos de la Placa Base*/
+	height: 300px;
+	height: 300px;
+	width: 300px;
+	margin-left:150px;
+}
+.precio{/*Ajustar el precio de los portatiles*/
+	padding-right: 7rem;
+	font-family: "fuentedescarga";
+	font-size: 30px;
+}
+.precioplacabase{/*Ajustar el precio de las Placas Bases y la Ram*/
+	padding-left: 5rem;
+	padding-right: 7rem;
+	font-family: "fuentedescarga";
+	font-size: 30px;
+
+}
+.boton{/*Edit de los botones de comprar y añadir cesta*/
+	margin: 3rem;
+	width: 90px;
+	height: 30px;
+}
+.bordes{/*Para poner los bordes de los componentes*/
+	border:solid black 1px;
+	border-right: 100px;
+}
+.restop{/*Características de lo de Resto de productos*/
+	font-size: 30px;
+	color: #73ABC1;
+	margin-left: 30px;
+	text-decoration: underline;
+}
+.def{/*Características de lo de Resto de productos*/
+	font-size: 20px;
+	color: black;
+	margin-left: 35px;
+}
+.iconop{
+	font-size: 17px;
+	color: white;
+}
+/*Empieza el CSS de contactos*/
+.recuadrocon{
+	background-color:#51AACE;
+	margin-left: 30px;
+	margin-right:70px;
+}
+.europa{/*Características del Mapa*/
+	width: 700px;
+	height: 300px;
+}
+.europeadef{/*Características de lo de la europeadef*/
+	margin-right: 50px;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

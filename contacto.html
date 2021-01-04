@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<title>Inicio</title>
+</head>
+<body class="uno">
+<div class="menu">
+  <ul>
+
+	<li><img src="icon/hogar.png"><a href="index.html" >Indice</a></li>
+	<li><img src="icon/quienes.png"><a href="quienes_somos.html">Quienes somos</a></li>
+	<li><img src="icon/instalaciones.png"><a href="instalaciones.html">Instalaciones</a></li>
+	<li><img src="icon/servicios.png"><a href="servicios.html">Servicios</a></li>
+	<li><img src="icon/productos.png"><a href="productos.html">Productos</a></li>
+	<li><img src="icon/contacto.png"><a href="contacto.html">Contacto</a></li>	
+
+  </ul>
+</div>
+<br> <!--Ponemos tantos por el menu ya que al abrirse si no se desmonta-->
+<br>
+<br>
+<img class="fotoservicios" src="img/fotocontacto.jpeg">
+<br>
+<table class="tablauno">
+	<tr>
+		<th><iframe class="europa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.6098224298335!2d-3.920477551070966!3d40.37317511090772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd419031a94d45e5%3A0x375a8b6ca7a1dc4c!2sUniversidad%20Europea%20de%20Madrid%20(Campus%20Villaviciosa%20de%20Od%C3%B3n)!5e0!3m2!1ses!2ses!4v1609674332322!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></th>
+	<div class="europeadef">
+		<th>
+			<p>Dirección: Universidad Europea de Madrid. Campus Villaviciosa de Odón.</p>
+			<p> Calle Tajo S/N Villaviciosa de Odón.Madrid </p>
+			<p> TLF: 91 211 56 73</p>
+			<p> Mail: unuversidadsolucionesglobales@gmail.com</p>
+		</th>
+	</div>
+	</tr>
+</table>
+<br>
+<br>
+<br>
+<form action="raul.rodriguez@universidadeuropea.es" method="POST" name="formulario" enctype="multipart/form-data">
+<fieldset class="recuadrocon"><!--Recuadro unos-->
+<legend>DATOS DE USUARIO</legend>
+<p>
+<label for="nombre" name="nombre">Nombre:</label>
+<input type="text" name="nombre" required>
+</p>
+<p>
+<label for="apellido1" name="apellido1">1º Apellido:</label>
+<input type="text" name="apellido1" required>
+</p>
+<p>
+<label for="apellido2" name="apellido2">2º Apellido:</label>
+<input type="text" name="apellido2" required>
+</p>
+<p>
+<label for="ce" name="ce">Correo electrónico:</label>
+<input type="email" name="ce" required>
+</p>
+<fieldset class="recuadrocon"><!--Recuadro dos-->
+	<legend>Dirección Postal</legend>
+
+<label for="calle" name="calle">Calle:</label>
+<input type="text" name="calle" required>
+<label for="numero" name="numero">Número:</label>
+<input type="number" name="numero" required>
+<label for="portal" name="portal">Portal:</label>
+<input type="number" name="portal" required>
+<br>
+<br>
+<label for="numero" name="numero">Número:</label>
+<input type="number" name="numero" required>
+<label for="numero" name="piso">Piso:</label>
+<input type="number" name="piso">
+<label for="cpostal" name="cpostal">Código Postal:</label>
+<input type="text" name="cpostal" minlength="1" maxlength="5" required>
+<br>
+<br>
+<label for="dpostal" name="dpostal">Población:</label>
+<input type="text" name="dpostal" required>
+<label for="provincia" name="provincia">Provincia:</label>
+<input type="text" name="provincia" required>
+<label for="pais" name="pais">País:</label>
+<input type="text" name="pais" required>
+<br>
+</fieldset><!--Se acaba Recuadro dos-->
+<p>
+<label class="comentarios" for="comentarios" name="comentarios">Otros:</label>
+<br><textarea name="comentarios" cols="17" rows="7" placeholder="comentarios"></textarea>
+</p>
+<p>Consultoría
+<input type="checkbox" name="consultoria">
+</p>
+<p>Desarrollo de proyectos
+<input type="checkbox" name="Desarrollo_de_Proyectos">
+</p>
+<p>Realización de pedidos
+<input type="checkbox" name="realización_de_pedidos">
+</p>
+<p>Otros
+<input type="checkbox" name="otros">
+</p>
+<button type="submit">Enviar</button>
+<button type="reset">Borrar</button>
+<input type="file" name="adjunto" accept=".pdf, .jpg, .png" multiple>
+</fieldset><!--Se acaba recuadro uno-->
+</form>
+<br>
+<br>
+<br>
+</body>
+</html>
